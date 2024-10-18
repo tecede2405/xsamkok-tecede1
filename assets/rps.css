@@ -1,0 +1,322 @@
+    /* @media (max-width: 2400px) {
+        .section-one {
+            height: 200vh;
+        }
+        .section-2 {
+            height: 200vh;
+        }
+        .section-3 {
+            height: 200vh;
+        }
+    } */
+    
+    @media (max-width: 1200px) {
+        .header .box-1,
+        .header .box-2 {
+            width: 20%;
+        }
+        .header .box-1 .box .img-1 {
+            width: 40px;
+            height: 40px;
+        }
+        .header .box-1 .box .img-2 {
+            width: 120px;
+            height: 30px;
+        }
+    }
+    
+    @media (max-width: 992px) {
+        .section-one {
+            background-image: url(./image/abc.jpg);
+        }
+        .header .box-1,
+        .header .box-2 {
+            width: 20%;
+        }
+        .header .box-1 .box {
+            justify-content: space-around;
+        }
+        .header .box-1 .box .img-1 {
+            width: 40px;
+            height: auto;
+            margin-left: 20px;
+        }
+        .header .box-1 .box .img-2 {
+            width: 120px;
+            height: auto;
+            margin-left: 10px;
+        }
+        .header .box-2 .icon i {
+            font-size: 28px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .header .box-1,
+        .header .box-2 {
+            width: 20%;
+        }
+        .header .box-1 {
+            margin-left: 20px;
+        }
+        .header .box-2 {
+            margin-right: 20px;
+        }
+        .header .box-1 .box {
+            justify-content: space-around;
+        }
+        .header .box-1 .box .img-1 {
+            width: 40px;
+            height: auto;
+            margin-left: 20px;
+        }
+        .header .box-1 .box .img-2 {
+            width: 120px;
+            height: auto;
+            margin-left: 10px;
+        }
+        .header .box-2 .icon i {
+            font-size: 28px;
+        }
+        .section-3 .container .row .box {
+            margin-top: 50px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .section-3 .container .row .col-xl-6 {
+            width: 50%;
+        }
+        .section-3 .container .row .img-1 img {
+            width: 200px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-2 {
+            width: 150px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-3 {
+            width: 150px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c1 {
+            width: 200px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c2 {
+            width: 180px;
+            height: auto;
+        }
+        .section-3 .container .row .box-2 .img-5 {
+            width: 150px;
+            height: auto;
+        }
+        .section-3 .container .row .box-2 .img-6 {
+            width: 200px;
+            height: auto;
+            margin-top: 23px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .header .box-1,
+        .header .box-2 {
+            width: 40%;
+        }
+        .header .box-1 .box {
+            justify-content: space-around;
+        }
+        .header .box-1 .box .img-1 {
+            width: 40px;
+            height: auto;
+            margin: 0;
+        }
+        .header .box-1 .box .img-2 {
+            width: 100px;
+            height: auto;
+            margin-left: 10px;
+        }
+        .header .box-2 .icon i {
+            font-size: 28px;
+        }
+        .header .box-1 {
+            margin-left: 10px;
+        }
+        .header .box-2 {
+            margin-right: 10px;
+        }
+        .section-one .container .row .inner-box .img-1 {
+            width: 300px;
+            height: 80px;
+        }
+        .section-one .container .row .inner-box .img-2 {
+            width: 250px;
+            height: 80px;
+        }
+        .section-one {
+            background-image: url(./image/abc.jpg);
+            height: 624px;
+        }
+        .section-2 {
+            height: 550px;
+        }
+        .section-2 .container .row .inner-box {
+            width: 350px;
+            height: 300px;
+        }
+        .section-2 .container .row .inner-box .img-1 {
+            width: 300px;
+            height: 80px;
+        }
+        .section-2 .container .row .inner-box .img-2 {
+            width: 250px;
+            height: 70px;
+        }
+        .section-2 .container .row .col-12 {
+            margin-top: 35px;
+        }
+        .section-3 {
+            height: 570px;
+        }
+        .section-3 .container .row .col-xl-6 {
+            width: 50%;
+        }
+        .section-3 .container .row .box {
+            width: 50%;
+            margin-top: 50px;
+        }
+        .section-3 .container .row .box .img-2 {
+            width: 150px;
+            height: auto;
+        }
+        .section-3 .container .row .img-1 img {
+            width: 160px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-2 {
+            width: 150px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c1 {
+            margin-left: 30px;
+            width: 160px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c2 {
+            margin-left: 30px;
+            width: 135px;
+            height: auto;
+            margin-top: 25px;
+        }
+        .section-3 .container .row .box-2 .img-5 {
+            width: 140px;
+            height: auto;
+        }
+        .section-3 .container .row .box-2 .img-6 {
+            width: 150px;
+            height: auto;
+            margin-top: 23px;
+        }
+    }
+    
+    @media (max-width: 367px) {
+        .section-one {
+            height: 550px;
+        }
+        .section-one .container .row .inner-box {
+            bottom: -300px;
+        }
+        .section-2 .container .row .inner-box {
+            width: 290px;
+            height: 280px;
+        }
+        .section-one .container .row .inner-box .img-1 {
+            max-width: 250px;
+            height: 60px;
+        }
+        .section-3 .container .row .img-1 img {
+            width: 140px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-2 {
+            width: 120px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-3 {
+            width: 120px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c1 {
+            width: 140px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c2 {
+            margin-left: 40px;
+            width: 110px;
+            height: auto;
+            margin-top: 15px;
+        }
+        .section-3 .container .row .box-2 .img-5 {
+            width: 120px;
+            height: auto;
+        }
+        .section-3 .container .row .box-2 .img-6 {
+            width: 120px;
+            height: auto;
+            margin-top: 23px;
+        }
+        .section-2 {
+            height: 546px;
+        }
+        .section-3 {
+            height: 546px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .section-2 .container .row .inner-box {
+            width: 290px;
+            height: 280px;
+        }
+        .section-one .container .row .inner-box .img-1 {
+            max-width: 250px;
+            height: 60px;
+        }
+        .section-3 .container .row .img-1 img {
+            width: 120px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-2 {
+            width: 100px;
+            height: auto;
+        }
+        .section-3 .container .row .box .img-3 {
+            width: 100px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c1 {
+            width: 120px;
+            height: auto;
+        }
+        .section-3 .container .row .img-4 .img-c2 {
+            margin-left: 40px;
+            width: 100px;
+            height: auto;
+            margin-top: 13px;
+        }
+        .section-3 .container .row .box-2 .img-5 {
+            width: 100px;
+            height: auto;
+        }
+        .section-3 .container .row .box-2 .img-6 {
+            width: 110px;
+            height: auto;
+            margin-top: 22px;
+        }
+        .section-2 {
+            height: 507px;
+        }
+        .section-3 {
+            height: 507px;
+        }
+    }

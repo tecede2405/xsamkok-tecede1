@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style.css" class="">
+    <link rel="stylesheet" href="./assets/rps.css" class="">
+    <link rel="icon" href="./assets/image/logo-web.jpg" type="image/icon type">
+    <title>xsamkok_tecede</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="box-1">
+            <div class="box">
+                <img class="img-1" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/header-icon-3c38816f.webp" alt="">
+                <img class="img-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPkAAAA7CAMAAACOsdwdAAAAAXNSR0IArs4c6QAAAQJQTFRFR3BM///////+//32//30//77//////31/em9/vPU////////9tiE/Oas////+duK////9c5l/OOk////////////////+NmK/+7G/////eq299N2//HK/uu7++Gd/////eix9cxj++Cb////+d6U/////////+/E////////99J0///++t6X////9tFv////9tN2//76/u/D9tFx////////+NqJ9s5l/u/F/////OWr/////vDI+NiF////9s9o/em2/eq3//DG/vDI////99Bt/eiz99N2++Ol////+NV8//LO+NqL//HJ/eiy9tFw++Kh9s9p//LM+t6T/u7C+Nd+wSpN3QAAAFF0Uk5TAIcbCxATtggFAeVRD/9MGB9K/t9/7uj9Iq39/un+/urs7+6/StVzR8tD7jJ9Jn+OJTp+tlpp4ePcm7WitfL20WhYy5tgNTJi1JWU8cL4jaWm5oUlKQAADSNJREFUeNrtVw1X2koTDskm2QVKgkmQiF60ED4ECiioiFUR/MCq1Wv9/3/lnZlsiEJbes8p9749x+e02c3MPDPz7G5WVXgewRWCUOXLHPTq+GLz/v7i5DwvYqvQIZjNDCbLV8d72muelg8juKZW96QrLBjOWXcP8n65GI90mdLU8+fjRpjTwkBVKCuCPt7c3DwaCap7dQEvF+pciOiefLn/GwFNVmM7Q+pYi4RXx0df7jfJH5n2NgF7prh6AIEnjGznR1jjCvPmx5tfZN6TKqeU5ydHX2SO1gmxNWVFEN1NKH2UD6XA9Mv5/J5Xj7C5o5OLLxgZS7tC5mZ+JpNUkD6JPBH3TKW6GXn4OZUjndULLCfzblJZdoKmKpFPkDxe3Z4rfO/+29/3D7C0YoQtjNkbN3VzDy3kGRtJAZHUe2xzj8t3Yt9j2xLaGHikPB8RcQ2+hasnaF0291Smj2g2EkDBnLTn1piE68qqQMq+ffuG1fIXMKHdJ8RbC+YLdRZpSbsF4eihdxJF7yDwjQGVW5vSUT3CEtWoLDmVyJyn1cReUPg9mFYpnKRh3RPLfNiCqiMx765S22ls9uKVUjEiYVvRly0oTmaQ0igAlVMFRgopQIZvUTIUvEWBOCHl+niLelJWC36+sbW1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"
+                    alt="">
+            </div>
+        </div>
+        <div class="box-2">
+            <div class="icon">
+                <ul class="" type="none">
+                    <li><a href="https://www.facebook.com/thoaidz.vx" target="_blank" class=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="" class=""><i class="fa-brands fa-discord"></i></a></li>
+                    <li><a href="" class=""><i class="fa-brands fa-internet-explorer"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="section-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-box">
+                        <img class="img-1" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/index-slogan-1673c005.webp" alt="">
+                        <a href="" class=""><img class="img-2" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/reg-button-1f7d3e3a.webp" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2" style="background-image: url(./assets/image/bg-sec2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-box">
+                        <img class="img-1" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/step1-slg-c5947ed3.webp " alt=" ">
+                        <img class="img-2" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/phone-reg-3c3c865b.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="img-1">
+                        <img class="" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/step2-img-be8d141e.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="box">
+                        <img class="img-2" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/step2-slg-c17aedc2.webp" alt="">
+                        <img class="img-3" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/step2-button-6013ab72.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row number-2">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 box-1">
+                    <div class="img-4">
+                        <img class="img-c1" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/step3-slg-24ebda54.webp" alt="">
+                        <img class="img-c2" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/discord-button-178ffdb4.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="box-2">
+                        <img class="img-5" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/step3-img-f493e041.webp" alt="">
+                        <img class="img-6" src="https://sy-cdnres.wattgaming.com/static/content/xsamkok/website/assets/webp/facebook-button-4ac6d93c.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+
+</html>

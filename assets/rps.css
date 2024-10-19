@@ -81,6 +81,28 @@
         .section-3 .container .row .box {
             margin-top: 50px;
         }
+        .section-4 .container .img-list .img {
+            width: 400px;
+            height: 230px;
+        }
+        .section-4 .container .inner-header img {
+            width: 240px;
+            height: 50px;
+        }
+        .section-4 {
+            height: 1000px;
+        }
+        .section-4 .row {
+            height: 1000px;
+        }
+        .section-4 .container .box-foot {
+            width: 500px;
+        }
+        .section-4 .container .box-foot img {
+            width: 250px;
+            left: 18%;
+            bottom: 150px;
+        }
     }
     
     @media (max-width: 575px) {
@@ -115,6 +137,47 @@
             width: 200px;
             height: auto;
             margin-top: 23px;
+        }
+        .section-4 .container .img-list .img {
+            width: 300px;
+            height: 170px;
+        }
+        .section-4 {
+            height: 900px;
+        }
+        .section-4 .row {
+            height: 900px;
+        }
+        .section-4 .container .box-foot {
+            width: 500px;
+            height: 400px;
+        }
+        .section-4 .container .inner-header img {
+            margin-bottom: 10px;
+        }
+        .section-4 .container .box-foot img {
+            width: 200px;
+            height: 70px;
+            left: 30%;
+            bottom: 100px;
+        }
+        .footer .container .row .col-12 .foot p {
+            font-size: 12px;
+        }
+        .footer .container .row .col-12 .foot img {
+            width: 100px;
+            height: 40px;
+        }
+    }
+    
+    @media (max-width: 560px) {
+        .section-4 .container .box-foot {
+            width: 450px;
+        }
+        .section-4 .container .box-foot img {
+            width: 190px;
+            height: 70px;
+            left: 25%;
         }
     }
     
@@ -217,6 +280,40 @@
             height: auto;
             margin-top: 23px;
         }
+        .section-4 .container .img-list .img {
+            width: 280px;
+            height: 150px;
+        }
+        .section-4 .container .inner-header img {
+            width: 200px;
+            height: 40px;
+        }
+        .section-4 {
+            height: 700px;
+        }
+        .section-4 .row {
+            height: 740px;
+        }
+        .section-4 .container .box-foot {
+            width: 320px;
+            height: 350px;
+        }
+        .section-4 .container .inner-header img {
+            margin-bottom: 10px;
+        }
+        .section-4 .container .box-foot img {
+            width: 150px;
+            height: 60px;
+            left: 25%;
+            bottom: 110px;
+        }
+        .footer .container .row .col-12 .foot p {
+            font-size: 10px;
+        }
+        .footer .container .row .col-12 .foot img {
+            width: 90px;
+            height: 35px;
+        }
     }
     
     @media (max-width: 367px) {
@@ -263,7 +360,7 @@
         .section-3 .container .row .box-2 .img-6 {
             width: 120px;
             height: auto;
-            margin-top: 23px;
+            margin-top: 19.5px;
         }
         .section-2 {
             height: 546px;
@@ -271,15 +368,40 @@
         .section-3 {
             height: 546px;
         }
+        .section-4 .container .img-list .img {
+            width: 230px;
+            height: 140px;
+        }
+        .section-4 {
+            height: 650px;
+        }
+        .section-4 .row {
+            height: 600px;
+        }
+        .section-4 .container .box-foot {
+            width: 270px;
+            height: 300px;
+        }
+        .section-4 .container .box-foot img {
+            width: 140px;
+            height: 60px;
+        }
+        .footer .container .row .col-12 .foot p {
+            font-size: 9px;
+        }
+        .footer .container .row .col-12 .foot img {
+            width: 80px;
+            height: 35px;
+        }
     }
     
     @media (max-width: 320px) {
         .section-2 .container .row .inner-box {
-            width: 290px;
+            width: 270px;
             height: 280px;
         }
         .section-one .container .row .inner-box .img-1 {
-            max-width: 250px;
+            max-width: 230px;
             height: 60px;
         }
         .section-3 .container .row .img-1 img {
@@ -318,5 +440,15 @@
         }
         .section-3 {
             height: 507px;
+        }
+        .section-4 {
+            height: 600px;
+        }
+        .section-4 .row {
+            height: 450px;
+        }
+        .section-4 .container .box-foot {
+            width: 240px;
+            height: 270px;
         }
     }
